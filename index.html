@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang = "eng">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content="width=device-width,initial-scale=1.0">
+    <title>Movie Maze: Movie Search Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href = "main.css">
+    <link rel="shortcut icon" href="#">
+
+</head>
+<body>
+
+    <div class = "wrapper">
+        <div class ="logo">
+            <div class = "container">
+                <p>Movie<span>Maze</span></p>
+            </div>
+        </div>
+        <div class = "search-container">
+            <div class = "search-element">
+                <h3>Search Movie:</h3>
+                <input type = "text" class = "form-control" placeholder="Search Movie Title..." id="movie-search-box" onkeyup="findMovies()">
+                <div class = "search-list" id = "search-list">
+                    <!-- <div class = "search-list-item">
+                        <div class = "search-item-thumbnail">
+                            <img src = "cover-image.jpg " >
+                        </div>
+                        <div class="serach-item-info">
+
+                            <h3>The Batman-unmask the truth</h3>
+                            <p>2022</p>
+
+                        </div>
+                        
+                    </div> -->
+                    <!-- <div class = "search-list-item">
+                        <div class = "search-item-thumbnail">
+                            <img src = "cover-image.jpg " >
+                        </div>
+                        <div class="serach-item-info">
+
+                            <h3>The Batman-unmask the truth</h3>
+                            <p>2022</p>
+
+                        </div>
+                        
+                    </div>
+                    <div class = "search-list-item">
+                        <div class = "search-item-thumbnail">
+                            <img src = "cover-image.jpg " >
+                        </div>
+                        <div class="serach-item-info">
+
+                            <h3>The Batman-unmask the truth</h3>
+                            <p>2022</p>
+
+                        </div>
+                        
+                    </div>
+                    <div class = "search-list-item">
+                        <div class = "search-item-thumbnail">
+                            <img src = "cover-image.jpg " >
+                        </div>
+                        <div class="serach-item-info">
+
+                            <h3>The Batman-unmask the truth</h3>
+                            <p>2022</p>
+
+                        </div>
+                        
+                    </div>
+                    <div class = "search-list-item">
+                        <div class = "search-item-thumbnail">
+                            <img src = "cover-image.jpg " >
+                        </div>
+                        <div class="serach-item-info">
+
+                            <h3>The Batman-unmask the truth</h3>
+                            <p>2022</p>
+
+                        </div>
+                        
+                    </div>
+                    <div class = "search-list-item">
+                        <div class = "search-item-thumbnail">
+                            <img src = "cover-image.jpg " >
+                        </div>
+                        <div class="serach-item-info">
+
+                            <h3>The Batman-unmask the truth</h3>
+                            <p>2022</p>
+
+                        </div>
+                        
+                    </div>
+                    <div class = "search-list-item">
+                        <div class = "search-item-thumbnail">
+                            <img src = "cover-image.jpg " >
+                        </div>
+                        <div class="serach-item-info">
+
+                            <h3>The Batman-unmask the truth</h3>
+                            <p>2022</p>
+
+                        </div>
+                        
+                    </div>
+                    <div class = "search-list-item">
+                        <div class = "search-item-thumbnail">
+                            <img src = "cover-image.jpg " >
+                        </div>
+                        <div class="serach-item-info">
+
+                            <h3>The Batman-unmask the truth</h3>
+                            <p>2022</p>
+
+                        </div>
+                        
+                    </div> -->
+                </div>
+            </div>
+        </div> 
+        <div class = "container">
+            <div class = "result-container">
+                <div class = "result-grid" id  = "result-grid">
+                         <div class = "movie-poster">
+                        <img src  = "cover-image.jpg" alt = "movie poster">
+
+                    </div>
+                    <div class = "movie-info">
+                        <h3 class = "movie-title" >The Batman - Unmask the Truth</h3>
+                        <ul class = "movie-misc-info">
+                            <li class = "year">Year: 2022</li>
+                            <li class = "rated">Ratings: PG-13</li> 
+                            <li class  = "released">Released: 04 Mar 2022</li>
+
+                        </ul>
+                        <p class = "genre"> <b>Genre: </b>Action,Adventure,Comedy</p>
+                        <p class = "writer"> <b> Writer:</b>Matt Reeves,Peter Craig</p>
+                        <p class = "actors"><b>Actors:</b>	
+                            Robert Pattinson,Zoë Kravitz,Paul Dano,Jeffrey Wright</p>
+                        <p class = "plot"><b>Plot:</b>On Halloween, Gotham City mayor Don Mitchell Jr. is murdered by a man calling himself the Riddler. Reclusive billionaire Bruce Wayne, who has operated for two years as the vigilante Batman, investigates alongside the Gotham City Police Department (GCPD). </p>
+                        <p class = "language"><b>Language:</b>English</p>
+                        <p class ="awards" ><b><i class= "fasfa-award"></i></b>No Nomination Yet</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src = "script.js"></script>
+</body>
+</html>
